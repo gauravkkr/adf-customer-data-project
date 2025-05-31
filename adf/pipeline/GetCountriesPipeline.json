@@ -34,7 +34,7 @@
 							}
 						},
 						{
-							"name": "Copy data1",
+							"name": "Copydata1",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
