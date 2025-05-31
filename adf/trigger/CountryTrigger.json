@@ -18,6 +18,12 @@
 						"russia"
 					]
 				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "CopyCustomerPipeline",
+					"type": "PipelineReference"
+				}
 			}
 		],
 		"type": "ScheduleTrigger",
