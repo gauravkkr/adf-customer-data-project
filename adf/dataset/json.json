@@ -10,7 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "@concat(lower(pipeline().parameters.countryName), '.json')",
+				"fileName": {
+					"value": "@concat(lower(pipeline().parameters.countryName), '.json')",
+					"type": "Expression"
+				},
 				"fileSystem": "newcontaimer"
 			}
 		},
